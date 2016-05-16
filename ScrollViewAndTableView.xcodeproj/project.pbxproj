@@ -39,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9AB801501CE97A0C00CEB130 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 		9AE7C6851CE6E5A7002E4588 /* ScrollViewAndTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollViewAndTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE7C6891CE6E5A7002E4588 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9AE7C68B1CE6E5A7002E4588 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -61,7 +62,6 @@
 		9AE7C6C21CE6EAF4002E4588 /* PageTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageTableController.m; sourceTree = "<group>"; };
 		9AE7C6C41CE6EE5B002E4588 /* MenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuView.h; sourceTree = "<group>"; };
 		9AE7C6C51CE6EE5B002E4588 /* MenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuView.m; sourceTree = "<group>"; };
-		9AE7C6C71CE6EE67002E4588 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		9AE7C6C91CE6EE78002E4588 /* UIView+WKFFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WKFFrame.h"; sourceTree = "<group>"; };
 		9AE7C6CA1CE6EE78002E4588 /* UIView+WKFFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WKFFrame.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -180,7 +180,7 @@
 		9AE7C6BD1CE6E5FF002E4588 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				9AE7C6C71CE6EE67002E4588 /* Header.h */,
+				9AB801501CE97A0C00CEB130 /* Common.h */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -556,6 +556,7 @@
 				9AE7C6B41CE6E5A7002E4588 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AE7C6B51CE6E5A7002E4588 /* Build configuration list for PBXNativeTarget "ScrollViewAndTableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -564,6 +565,7 @@
 				9AE7C6B71CE6E5A7002E4588 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AE7C6B81CE6E5A7002E4588 /* Build configuration list for PBXNativeTarget "ScrollViewAndTableViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -572,6 +574,7 @@
 				9AE7C6BA1CE6E5A7002E4588 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
